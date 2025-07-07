@@ -16,12 +16,12 @@ const centuryGothic = localFont({
       style: "normal",
     },
     {
-      path: "../public/fonts/Century Gothic italic.otf",
+      path: "../public/fonts/Century Gothic Italic.otf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../public/fonts/Century Gothic Bold italic.otf",
+      path: "../public/fonts/Century Gothic Bold Italic.otf",
       weight: "700",
       style: "normal",
     },
