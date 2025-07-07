@@ -3,7 +3,11 @@ export type ProjectDataProps = {
   title: string;
   imgUrl: string;
   details: string;
+  blurDataUrl: string;
 };
+
+const defaultBlurDataUrl =
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
 
 export const ProjectDatas: ProjectDataProps[] = [
   {
@@ -12,6 +16,7 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH1.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
   {
     id: 2,
@@ -19,6 +24,7 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH2.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
   {
     id: 3,
@@ -26,6 +32,7 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH3.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
   {
     id: 4,
@@ -33,6 +40,7 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH4.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
   {
     id: 5,
@@ -40,6 +48,7 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH5.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
   {
     id: 6,
@@ -47,6 +56,7 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH6.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
   {
     id: 7,
@@ -54,6 +64,7 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH7.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
   {
     id: 8,
@@ -61,5 +72,6 @@ export const ProjectDatas: ProjectDataProps[] = [
     imgUrl: "/Link - UXH8.png",
     details:
       "Salesforce is a customer relationship management (CRM) platform that helps organizations manage their interactions and relationships with customers and potential customers.",
+    blurDataUrl: defaultBlurDataUrl,
   },
 ];

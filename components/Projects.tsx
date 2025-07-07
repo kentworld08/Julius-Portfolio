@@ -50,6 +50,8 @@ const Projects = () => {
               src={data.imgUrl}
               width={435}
               height={432}
+              placeholder="blur"
+              blurDataURL={data.blurDataUrl}
               alt={data.title}
             />
           </div>
