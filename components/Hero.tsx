@@ -32,7 +32,7 @@ const Hero = () => {
 
         <div className="fixed w-full bottom-0 z-30">
           <div className="relative z-10 w-full backdrop-blur-xl bg-[linear-gradient(to_bottom,#FFFFFF00_0%,#FFFFFF99_60%)] border border-white/20 shadow-lg shadow-black/30 flex flex-col items-center justify-center h-[147.59px] px-[12px] pb-[40px]">
-            <div className="w-full max-w-sm rounded-[28px] border-[1px] p-[20px] gap-[10px] border-[#F5F5F5CC] bg-[#F5F5F5CC] flex justify-between z-100">
+            <div className="w-full max-w-[360px] rounded-[28px] border-[1px] p-[20px] gap-[10px] border-[#F5F5F5CC] bg-[#F5F5F5CC] flex justify-between z-100 h-[107.59px]">
               <Link
                 href="#home"
                 className="flex flex-col items-center justify-center p-2"
@@ -73,9 +73,10 @@ const Hero = () => {
                   src="/imgIcons/vector2.png"
                   width={19.5}
                   height={21.5}
-                  alt="Contact Me icon"
+                  alt="Contact icon"
                   className="text-black"
                 />
+
                 <h1 className="text-[#1F1F1F] text-[12.9px] font-medium leading-[15.6px] tracking-normal">
                   Contact Me
                 </h1>
