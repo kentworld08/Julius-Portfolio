@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowDownLong } from "react-icons/fa6";
+import { HiMiniPhone } from "react-icons/hi2";
+import { PiNoteBold } from "react-icons/pi";
 
 const Hero = () => {
   return (
@@ -69,13 +71,7 @@ const Hero = () => {
                 href="#contact"
                 className="flex flex-col items-center justify-center p-2"
               >
-                <Image
-                  src="/imgIcons/vector2.png"
-                  width={19.5}
-                  height={21.5}
-                  alt="Contact icon"
-                  className="text-black"
-                />
+                <HiMiniPhone className="text-black w-[29.5px] h-[20.5px]" />
 
                 <h1 className="text-[#1F1F1F] text-[12.9px] font-medium leading-[15.6px] tracking-normal">
                   Contact Me
@@ -87,13 +83,7 @@ const Hero = () => {
                 target="_blank"
                 className="flex flex-col items-center justify-center p-2"
               >
-                <Image
-                  src="/imgIcons/vector.png"
-                  width={19.5}
-                  height={21.5}
-                  alt="Resume icon"
-                  className="text-black"
-                />
+                <PiNoteBold className="text-black w-[21.5px] h-[21.5px]" />
                 <h1 className="text-[#1F1F1F] text-[12.9px] font-medium leading-[15.6px] tracking-normal">
                   Resume
                 </h1>
