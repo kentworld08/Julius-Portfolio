@@ -43,7 +43,7 @@ const Projects = () => {
         {ProjectDatas.map((data) => (
           <div
             key={data.id}
-            className="flex justify-center items-center"
+            className="flex justify-center items-center cursor-pointer hover:opacity-90"
             onClick={() => toggleOverlay(data.id)}
           >
             <Image
